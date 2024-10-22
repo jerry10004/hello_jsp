@@ -1,5 +1,5 @@
 FROM tomcat:9.0
 
-ADD ./target/*.war /usr/local/tomcat/webapps/
+ADD ./src/main/webapp /usr/local/tomcat/webapps/aaa
 
 CMD ["catalina.sh", "run"]
